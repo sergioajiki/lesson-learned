@@ -38,7 +38,30 @@ body {
 
 }
 
+.lado-esquerdo {
+    border: 1px solid black;
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+    
+}
+
+.lado-direito {
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    float:right;
+    margin-right: 20px;
+    
+
+
+}
+
 #rodape {
+    position: fixed;
+    bottom: 0;
+    background-color: blue;
+    text-align: center;
 
 }
 
