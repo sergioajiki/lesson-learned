@@ -12,17 +12,9 @@ body {
     right: 0;
 }
 #titulo {
-
-}
-
-.bonus14 {
-    
     font-size: 30px;
     color: deepskyblue;
     line-height: 6px;
-    padding: 10px green;
-    border: 10px black;
-    margin: red;
 }
 
 #minha_foto {
@@ -49,12 +41,11 @@ body {
 .lado-direito {
     padding: 10px;
     border: 1px solid black;
+    margin: red;
     width: 200px;
     float:right;
     margin-right: 20px;
     
-
-
 }
 
 #rodape {
