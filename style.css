@@ -41,26 +41,29 @@ table, th, td {
 .lado-esquerdo {
     padding: 5px;
     border: 1px solid black;
-    margin: 10px;
+    margin: 5px;
     float: left;
-    width: 50%;
+    width: 40%;
     margin-left: 20px;
+    
     
 }
 
 .lado-direito {
     padding: 5px;
     border: 1px solid black;
-    margin: 10px;
-    width: 200px;
+    margin: 5px;
+    width: 40%;
     float: right;
     margin-right: 20px;
     
 }
 
 #rodape {
+    width: 100%;
     position: fixed;
-    bottom: 0;
+    left: 0px;
+    bottom: 0px;
     background-color: blue;
     text-align: center;
 
