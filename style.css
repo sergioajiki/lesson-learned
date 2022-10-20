@@ -1,54 +1,65 @@
 /* Adicione uma cor de fundo específica para a página */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
-    background-color:blue;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
+
 #titulo {
-    font-size: 30px;
-    text-align: center;
-    color: deepskyblue;
-    line-height: 6px;
+  font-size: 30px;
+  text-align: center;
+  color: deepskyblue;
+  line-height: 6px;
 }
+
 #minha_foto {
-       width: 300px;
-} 
-table, th, td {
-    width: max-content;
-    padding: 5px;
-    border: 1px solid;
+  width: 300px;
 }
+
+table , th , td {
+  width: max-content;
+  padding: 5px;
+  border: 1px solid;
+}
+
 #licoes_aprendidas {
+  background-color: rgb(253, 251, 251);
 }
+
 #licoes_a_aprender {
+  background-color: rgb(253, 251, 251);
 }
+
 .lado-esquerdo {
-    padding: 5px;
-    border: 1px solid black;
-    margin: 5px;
-    float: left;
-    width: 40%;
-    margin-left: 20px; 
+  padding: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  float: left;
+  width: 40%;
+  margin-left: 20px;
 }
+
 .lado-direito {
-    padding: 5px;
-    border: 1px solid black;
-    margin: 5px;
-    width: 40%;
-    float: right;
-    margin-right: 20px;   
+  padding: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  width: 40%;
+  float: right;
+  margin-right: 20px;
 }
+
 #rodape {
-    width: 100%;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    background-color: blue;
-    text-align: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: blue;
+  text-align: center;
 }
