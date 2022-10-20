@@ -5,12 +5,13 @@ body {
 }
 
 #cabecalho {
-    background-color:blue ;
+    background-color:blue;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
 }
+
 #titulo {
     font-size: 30px;
     color: deepskyblue;
@@ -21,6 +22,13 @@ body {
        width: 300px;
 } 
 
+table, th, td {
+
+    width: max-content;
+    padding: 5px;
+    border: 1px solid;
+
+}
 
 #licoes_aprendidas {
 
@@ -31,7 +39,9 @@ body {
 }
 
 .lado-esquerdo {
+    padding: 5px;
     border: 1px solid black;
+    margin: 10px;
     float: left;
     width: 50%;
     margin-left: 20px;
@@ -39,11 +49,11 @@ body {
 }
 
 .lado-direito {
-    padding: 10px;
+    padding: 5px;
     border: 1px solid black;
-    margin: red;
+    margin: 10px;
     width: 200px;
-    float:right;
+    float: right;
     margin-right: 20px;
     
 }
